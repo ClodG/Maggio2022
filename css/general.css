@@ -1,0 +1,43 @@
+:root {
+    /* grandezze*/
+    --text-s: 10px;
+    --text-m: 12px;
+    --text-l: 18px;
+    --text-xl: 25px;
+    /* colore*/
+    --black: #1F1E1F;
+    --green: #1abc9c;
+}
+
+.bg-green {
+    background-color: var(--green);
+}
+
+/* classi grandezze testo */
+.text-sm {
+    font-size: var(--text-s);
+}
+
+/* classi colore testo */
+.text-black {
+    color: var(--black);
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    font-size: 10px;
+}
+
+@media screen and (max-width:1000px) {
+    :root {
+        /* grandezze testo */
+        --text-s: 50px;
+        --text-m: 12px;
+        --text-l: 18px;
+        --text-xl: 25px;
+        /* colore testo */
+        --black: #592B29;
+        }
+    }

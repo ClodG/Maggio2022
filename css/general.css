@@ -7,27 +7,38 @@
     /* colore*/
     --black: #1F1E1F;
     --green: #1abc9c;
+    --grey: #3A546D;
+    --white: #ffffff;
+
 }
 
 .bg-green {
     background-color: var(--green);
 }
-
-/* classi grandezze testo */
-.text-sm {
-    font-size: var(--text-s);
+.bg-grey {
+    background-color: var(--grey);
 }
 
-/* classi colore testo */
+.text-l {
+    font-size: var(--text-l);
+}
+.text-m {
+    font-size: var(--text-m);
+}
+
 .text-black {
     color: var(--black);
 }
+.text-white{
+    color: var(--white);
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
 
-li {
-    font-size: 10px;
+header {
+    font-family: 'Times New Roman', Times, serif;
 }
 
 @media screen and (max-width:1000px) {

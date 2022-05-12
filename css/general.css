@@ -4,6 +4,7 @@
     --text-m: 12px;
     --text-l: 18px;
     --text-xl: 25px;
+    --text-xxl: 40px;
     /* colore*/
     --black: #1F1E1F;
     --green: #1abc9c;
@@ -25,6 +26,9 @@
 .text-m {
     font-size: var(--text-m);
 }
+.text-xxl {
+    font-size: var(--text-xxl);
+}
 
 .text-black {
     color: var(--black);
@@ -39,6 +43,10 @@ body {
 
 header {
     font-family: 'Times New Roman', Times, serif;
+}
+
+.immaginiPortfolio {
+    
 }
 
 @media screen and (max-width:1000px) {

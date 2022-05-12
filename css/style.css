@@ -9,7 +9,7 @@ header {
     /* background-color: #3A546D; */
     display: flex;
     flex-wrap: nowrap;
-    border: solid 2px black;
+    /* border: solid 2px black; */
     background-color: var(--grey);
    
 }
@@ -17,9 +17,7 @@ header {
 main {
     background-color: white;
     width: 100%;
-    display: flex;
-    flex-wrap: nowrap;
-    border: solid 2px black;
+    /* border: solid 2px black; */
  
 }
 footer{
@@ -45,34 +43,72 @@ footer{
     word-spacing: 10px;
     
 }
-/* .jumbotron {
-    height: 300px;
+
+
+.start{
+    background-color: var(--green);
     width: 100%;
+    padding: 10px;
+}
+
+.avatar{
+    background-image: url("img/avatar.svg");
+    width: 10%;
+    height: 90%;
+    margin: auto;  
     display: flex;
-    flex-wrap: wrap;         */
+    /* flex-wrap: wrap;  */
+    /* border: solid black 2px; */
+    }
 
-/* .img {
-    display: block;
-    text-indent: -9999px;
-    width: 100px;
-    height: 82px;
-    background: url(avatar.svg);
-    background-size: 100px 82px;
-  } */
+.titleStart {
+    font-size:var(--text-xxl);
+    color: var(--white);
+    /* border: solid black 2px; */
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-weight: 700;
+}
 
-  .start {
-      background-color: var(--green);
+.description {
+    color: var(--white);
+    font-size:var(--text-l);
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.portfolio {
+    background-color: var(--white);
+    padding: 10px;
+    
+    
+    
+}
+
+.titlePortfolio {
+    color: var(--black);
+    font-size:var(--text-xl);
+    font-weight: 500;
+    justify-content: center;
+    display: flex;
+}
+img {
+    /* transform: scale(0.4); */
+    border-radius: 30px;
+    border-radius: 2px solid black;
+    width: 10%;
+    height: 10%;
+    display: flex;
+    lex-wrap: wrap;
+    align-content: start;
+
+    
       
-  }
 
-  .avatar {
+   
     
-    /* transform: scale(0.8); */
-    width: 100%;
-    display: block;
-    
-    text-align: center;
-    margin: 0px auto;
-    
-        
+       
 }
